@@ -34,3 +34,9 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+val jar by tasks.getting(Jar::class) {
+	manifest {
+		attributes["Main-Class"] = "tunemage.video_lesson.VideoLessonApplication"
+	}
+}

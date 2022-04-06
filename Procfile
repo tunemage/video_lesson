@@ -1,1 +1,1 @@
-web: java -jar build/libs/video-lesson-cloud-0.1.0.jar --server.port=$PORT
+web: java -jar build/libs/video-lesson-0.1.0.jar --server.port=$PORT
